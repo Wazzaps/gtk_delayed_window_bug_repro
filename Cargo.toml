@@ -1,0 +1,12 @@
+[package]
+name = "gtk-delayed-window-bug-repro"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# GTK
+gtk = {package = "gtk4", version = "0.6.2", features = ["v4_6"]}
+adw = {package = "libadwaita", version = "0.4.1", features = ["v1_1"]}
+glib = "0.17.2"
